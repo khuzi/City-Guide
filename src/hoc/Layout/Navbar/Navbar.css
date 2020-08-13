@@ -1,0 +1,67 @@
+
+.navbar ul li :link {
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+}
+.navbar ul li :link:hover {
+    background-color: teal !important;
+}
+
+.btn {
+    color: teal;
+    border-color: teal;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover{
+    background-color: teal;
+    color: white;
+    border-color: white;
+}
+
+.form-control:focus {
+    border-color: teal;
+}
+
+@media(max-width: 991px) {
+    .navbar .navbar-brand {
+        margin-left: 10px !important;
+    }
+    .navbar ul {
+        padding-top: 20px;
+    }
+    .navbar ul li :Link{
+        padding-left: 20px;
+        max-width: 317px;
+    } 
+    .navbar ul li :link:hover {
+        background-color: transparent !important;
+    }
+    .navbar ul li a:hover {
+        color: teal !important;
+    }        
+    .form-control {
+        margin-left: 65px !important;
+        max-width: 300px;
+    }
+    .btn {
+        margin-left: 65px !important;
+    }
+}
+
+
+@media(max-width: 410px) {
+    .navbar ul li :Link{
+        padding-left: 0px;
+    }
+    .navbar ul li {
+        margin-left: -18px;
+    }         
+    .form-control {
+        margin-left: 30px !important;
+        max-width: 300px;
+    }
+    .btn {
+        margin-left: 30px !important;
+    }
+}

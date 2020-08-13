@@ -1,0 +1,18 @@
+.footer-middle {
+    background-color: var(--mainDark);
+    padding-top: 3rem;
+    color: var(--mainWhite);
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: var(--mainGrey);
+}
+
+.footer-middle ul li a:hover {
+    color: var(--mainLightGrey);
+}
+
+.footer-bottom {
+    padding: 3rem 0 2rem 0;
+}
